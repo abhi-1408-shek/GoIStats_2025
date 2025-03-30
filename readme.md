@@ -1,163 +1,296 @@
-# <span style="color:#48D1CC; font-size:28px; font-weight:bold; text-shadow: 0 0 10px #48D1CC;">Innovate with GoIStats: HCES 2022-23 Analysis</span>
-**<span style="color:#00BFFF; font-size:20px; text-shadow: 0 0 8px #00BFFF;">A Data-Driven Approach to Bridging Urban-Rural Divides for Viksit Bharat</span>**
+<div align="center">
 
-![Dashboard Demo](DASHBOARD/screenshots/dashboard_demo.gif)
+# 🚀 INNOVATE WITH GOISTATS: HCES 2022-23
 
----
+[![Project Status: Active](https://img.shields.io/badge/Project%20Status-Active-brightgreen.svg)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]()
+[![Python Version](https://img.shields.io/badge/python-3.10-blue.svg)]()
+[![Data: HCES](https://img.shields.io/badge/Data-HCES%202022--23-orange.svg)]()
 
-## <span style="color:#FFD700; text-shadow: 0 0 8px #FFD700;">Table of Contents</span>
-- [<span style="color:#87CEEB;">Project Overview</span>](#project-overview)
-- [<span style="color:#87CEEB;">Repository Structure</span>](#repository-structure)
-- [<span style="color:#87CEEB;">Installation</span>](#installation)
-- [<span style="color:#87CEEB;">Getting Started</span>](#getting-started)
-- [<span style="color:#87CEEB;">Data Processing & Visualization</span>](#data-processing--visualization)
-- [<span style="color:#87CEEB;">Dashboard Features</span>](#dashboard-features)
-- [<span style="color:#87CEEB;">Reproducibility</span>](#reproducibility)
-- [<span style="color:#87CEEB;">Ethical Compliance</span>](#ethical-compliance)
-- [<span style="color:#87CEEB;">Contributing</span>](#contributing)
-- [<span style="color:#87CEEB;">License</span>](#license)
-- [<span style="color:#87CEEB;">Contact</span>](#contact)
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=A+Data-Driven+Approach+to+Bridging;Urban-Rural+Divides+for+Viksit+Bharat" alt="Typing SVG" />
+</p>
 
----
+<img src="DASHBOARD/screenshots/dashboard_demo.gif" alt="Dashboard Demo" width="800px"/>
 
-## <span style="color:#32CD32; text-shadow: 0 0 8px #32CD32;">Project Overview</span>
-This project analyzes the **Household Consumer Expenditure Survey (HCES) 2022-23** dataset to generate actionable insights for India’s *Viksit Bharat* initiative. Key focus areas include:
-- **Digital Divide:** Urban vs. rural internet penetration and online transactions.
-- **Expenditure Patterns:** Monthly consumption trends and subsidy impacts.
-- **Policy Tools:** Interactive dashboard for evidence-based decision-making.
+</div>
 
-**Key Features:**
-- Parallel processing of 15 hierarchical datasets.
-- Dynamic visualizations (choropleth maps, heatmaps).
-- Real-time policy impact simulation.
+<div align="center">
 
----
+## 📚 Table of Contents
 
-## <span style="color:#FF4500; text-shadow: 0 0 8px #FF4500;">Repository Structure</span>
-```bash
-GoIStats_2025/
-├── CONCLUSION/               # Final reports and policy recommendations
-├── DASHBOARD/               # Streamlit dashboard code and assets
-│   ├── app.py               # Dashboard main script
-│   ├── assets/              # CSS, images, and geojson files
-│   ├── requirements.txt     # Moved inside DASHBOARD
-├── DOCUMENTATION/           # MoSPI documentation and layout files
-│   ├── Layout_HCES_2022-23.xls
-│   ├── Tabulation_state_code.xlsx
-├── OUTPUT/                  # Processed datasets and visualizations
-│   ├── results.csv
-│   ├── plots/
-├── RAWDATA/                 # Raw HCES 2022-23 microdata (15 levels)
-│   ├── hces22_lvl_01.TXT
-│   └── ...
-├── Untitled.py              # Data preprocessing script
-└── README.md
+</div>
+
+<details open>
+<summary>Click to expand/collapse</summary>
+
+- [⚡ Project Overview](#project-overview)
+- [⚙️ Repository Structure](#repository-structure)
+- [⚛️ Installation](#installation)
+- [▶️ Getting Started](#getting-started)
+- [📊 Data Processing & Visualization](#data-processing--visualization)
+- [🔮 Dashboard Features](#dashboard-features)
+- [♾️ Reproducibility](#reproducibility)
+- [⚖️ Ethical Compliance](#ethical-compliance)
+- [🤝 Contributing](#contributing)
+- [📄 License](#license)
+- [📞 Contact](#contact)
+
+</details>
+
+<div align="center">
+
+## ⚡ Project Overview
+
+</div>
+
+> This project analyzes the Household Consumer Expenditure Survey (HCES) 2022-23 dataset to generate actionable insights for India's Viksit Bharat initiative.
+
+<table align="center">
+<tr>
+<td align="center">
+<img width="64" src="https://img.icons8.com/nolan/64/wifi.png" alt="Digital Divide"/><br/>
+<b>Digital Divide</b><br/>
+Urban vs. rural internet penetration
+</td>
+<td align="center">
+<img width="64" src="https://img.icons8.com/nolan/64/money-bag.png" alt="Expenditure"/><br/>
+<b>Expenditure Patterns</b><br/>
+Consumption trends & subsidies
+</td>
+<td align="center">
+<img width="64" src="https://img.icons8.com/nolan/64/dashboard.png" alt="Policy"/><br/>
+<b>Policy Tools</b><br/>
+Evidence-based decision-making
+</td>
+</tr>
+</table>
+
+### 🌟 Key Features
+
+<div align="center">
+
+[![Feature](https://img.shields.io/badge/🔄-Parallel_Processing-blue?style=for-the-badge)]()
+[![Feature](https://img.shields.io/badge/📊-Dynamic_Visualizations-green?style=for-the-badge)]()
+[![Feature](https://img.shields.io/badge/⚡-Real--time_Simulation-orange?style=for-the-badge)]()
+
+</div>
+
+<div align="center">
+
+## ⚙️ Repository Structure
+
+</div>
+
+```mermaid
+graph TD
+    A[GoIStats_2025] --> B[CONCLUSION]
+    A --> C[DASHBOARD]
+    A --> D[DOCUMENTATION]
+    A --> E[OUTPUT]
+    A --> F[RAWDATA]
+    C --> G[app.py]
+    C --> H[assets]
+    C --> I[requirements.txt]
+    D --> J[Layout_HCES_2022-23.xls]
+    D --> K[Tabulation_state_code.xlsx]
+    E --> L[results.csv]
+    E --> M[plots]
+    F --> N[hces22_lvl_01.TXT]
 ```
 
----
+<div align="center">
 
-## <span style="color:#1E90FF; text-shadow: 0 0 8px #1E90FF;">Installation</span>
+## ⚛️ Installation
+
+</div>
 
 ### Prerequisites
-- Python 3.10
-- Git
 
-### Steps
-1. Clone the Repository:
-   ```bash
-   git clone https://github.com/abhi-1408-shek/GoIStats_2025.git
-   cd GoIStats_2025
-   ```
+<div align="center">
 
-2. Install Dependencies:
-   ```bash
-   pip install -r DASHBOARD/requirements.txt
-   ```
+[![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)]()
+[![Git](https://img.shields.io/badge/Git-Required-red?style=for-the-badge&logo=git)]()
 
----
+</div>
 
-## <span style="color:#DAA520; text-shadow: 0 0 8px #DAA520;">Getting Started</span>
+### Setup
 
-### 1. Data Preprocessing
-Run the preprocessing script to clean and merge raw data:
 ```bash
-python Untitled.py
-```
-*Output:* `OUTPUT/results.csv` (processed dataset).
+# Clone the repository
+git clone https://github.com/abhi-1408-shek/Innovate_with_GoIStats.git
+cd Innovate_with_GoIStats
 
-### 2. Launch Interactive Dashboard
+# Install dependencies
+pip install -r DASHBOARD/requirements.txt
+```
+
+<div align="center">
+
+## ▶️ Getting Started
+
+</div>
+
+<details open>
+<summary><b>1. Data Preprocessing</b></summary>
+
 ```bash
-streamlit run DASHBOARD/app.py
+python Untitled.py  # Generates OUTPUT/results.csv
 ```
-Access the dashboard at `http://localhost:8501`.
+</details>
+
+<details open>
+<summary><b>2. Launch Dashboard</b></summary>
+
+```bash
+streamlit run DASHBOARD/app.py  # Access at http://localhost:8501
+```
+</details>
+
+<div align="center">
+
+## 📊 Data Processing & Visualization
+
+</div>
+
+```mermaid
+flowchart LR
+    A[Data Ingestion] --> B[Household Consolidation]
+    B --> C[Visualization]
+    C --> D[Choropleth Maps]
+    C --> E[Heatmaps]
+    style A fill:#f9f,stroke:#333,stroke-width:4px
+    style B fill:#bbf,stroke:#333,stroke-width:4px
+    style C fill:#bfb,stroke:#333,stroke-width:4px
+```
+
+<div align="center">
+
+## 🔮 Dashboard Features
+
+</div>
+
+### 🎛️ Interactive Filters
+
+<table align="center">
+<tr>
+<td align="center">
+<img width="48" src="https://img.icons8.com/nolan/48/india-map.png"/><br/>
+<b>State</b><br/>
+36 states/UTs
+</td>
+<td align="center">
+<img width="48" src="https://img.icons8.com/nolan/48/city.png"/><br/>
+<b>Sector</b><br/>
+Urban vs. Rural
+</td>
+<td align="center">
+<img width="48" src="https://img.icons8.com/nolan/48/time-machine.png"/><br/>
+<b>Year</b><br/>
+2020-2023
+</td>
+</tr>
+</table>
+
+### 📈 Visualization Tools
+
+1. **Geospatial Analysis**
+   - State-wise adoption heatmaps
+2. **Policy Simulation**
+   - Impact prediction models
+3. **Real-Time Updates**
+   - Dynamic data visualization
+
+<div align="center">
+
+## ♾️ Reproducibility
+
+</div>
+
+<table align="center">
+<tr>
+<td align="center">
+<img width="48" src="https://img.icons8.com/nolan/48/git.png"/><br/>
+Version Control
+</td>
+<td align="center">
+<img width="48" src="https://img.icons8.com/nolan/48/code.png"/><br/>
+Modular Code
+</td>
+<td align="center">
+<img width="48" src="https://img.icons8.com/nolan/48/document.png"/><br/>
+Documentation
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+## ⚖️ Ethical Compliance
+
+</div>
+
+- 🔒 **Anonymization**: Removed sensitive identifiers
+- 📜 **Data Usage**: MoSPI guidelines compliant
+- ⚖️ **Licensing**: Raw data under NDA
+
+<div align="center">
+
+## 🤝 Contributing
+
+</div>
+
+```mermaid
+graph LR
+    A[Fork] -->|Create| B[Feature Branch]
+    B -->|Develop| C[Submit PR]
+    style A fill:#f96,stroke:#333,stroke-width:4px
+    style B fill:#9cf,stroke:#333,stroke-width:4px
+    style C fill:#9f9,stroke:#333,stroke-width:4px
+```
+
+<div align="center">
+
+## 📄 License
+
+</div>
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)]()
+[![MoSPI NDA](https://img.shields.io/badge/Data-MoSPI_NDA-red.svg)]()
+
+<div align="center">
+
+## 📞 Contact
+
+</div>
+
+<table align="center">
+<tr>
+<td align="center">
+<img width="48" src="https://img.icons8.com/nolan/48/user.png"/><br/>
+<b>Team</b><br/>
+Abhishek Sharma
+</td>
+<td align="center">
+<img width="48" src="https://img.icons8.com/nolan/48/email.png"/><br/>
+<b>Email</b><br/>
+abhishekpooja1408@example.com
+</td>
+<td align="center">
+<img width="48" src="https://img.icons8.com/nolan/48/github.png"/><br/>
+<b>Issues</b><br/>
+<a href="https://github.com/abhi-1408-shek/Innovate_with_GoIStats/issues">Report Here</a>
+</td>
+</tr>
+</table>
+
+<div align="center">
 
 ---
 
-## <span style="color:#FFA500; text-shadow: 0 0 8px #FFA500;">Data Processing & Visualization</span>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=15&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&width=500&lines=Submitted+to+MoSPI's+Innovate+with+GoIStats;Hackathon+2025" alt="Footer" />
+</p>
 
-### Workflow
-1. **Data Ingestion:** Parse fixed-width files using `Layout_HCES_2022-23.xls`.
-2. **Household Consolidation:** Generate `HH_ID` for merging 15 hierarchical levels.
-3. **Visualization:**
-   - **Choropleth Maps:** State-wise internet penetration.
-   - **Heatmaps:** Correlation between education and healthcare spending.
-
-![Data Workflow](DOCUMENTATION/workflow.png)
-
----
-
-## <span style="color:#7CFC00; text-shadow: 0 0 8px #7CFC00;">Dashboard Features</span>
-### Interactive Filters
-- **State:** Compare metrics across 36 states/UTs.
-- **Sector:** Urban vs. rural trends.
-- **Year:** Analyze temporal patterns (2020–2023).
-
-### Visualization Tools
-1. **Geospatial Analysis:**
-   - Highlight low-adoption states (e.g., Bihar, Odisha).
-2. **Policy Simulation:**
-   - Estimate the impact of doubling rural internet coverage.
-3. **Real-Time Updates:**
-   - Dynamic charts adjust to filters instantly.
-
----
-
-## <span style="color:#00FA9A; text-shadow: 0 0 8px #00FA9A;">Reproducibility</span>
-### Key Practices
-- **Version Control:** All code and data are Git-tracked.
-- **Modular Code:** Reusable scripts for preprocessing and visualization.
-- **Documentation:** Detailed variable definitions in `DOCUMENTATION/`.
-
----
-
-## <span style="color:#FF6347; text-shadow: 0 0 8px #FF6347;">Ethical Compliance</span>
-- **Anonymization:** Removed `HH_ID` and sensitive fields.
-- **Data Usage:** Compliant with MoSPI’s non-disclosure guidelines.
-- **Licensing:** Raw data is non-shareable (see [MoSPI Terms](https://mospi.gov.in)).
-
----
-
-## <span style="color:#EE82EE; text-shadow: 0 0 8px #EE82EE;">Contributing</span>
-1. Fork the repository.
-2. Create a branch:
-   ```bash
-   git checkout -b feature/your-feature
-   ```
-3. Submit a PR with a detailed description.
-
----
-
-## <span style="color:#00CED1; text-shadow: 0 0 8px #00CED1;">License</span>
-This project is licensed under **MIT License** (code) and **MoSPI NDA** (data).
-
----
-
-## <span style="color:#DC143C; text-shadow: 0 0 8px #DC143C;">Contact</span>
-**Team:** Abhishek Sharma  
-**Email:** your.email@example.com  
-**GitHub Issues:** [Report Here](https://github.com/abhi-1408-shek/GoIStats_2025/issues)
-
----
-
-*<span style="color:#FF1493; text-shadow: 0 0 8px #FF1493;">Submitted to MoSPI’s "Innovate with GoIStats" Hackathon 2025.</span>*
+</div>
 
