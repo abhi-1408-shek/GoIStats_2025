@@ -1,0 +1,14 @@
+
+### 📊 Key Insights on Self-Employment Income Sources
+
+1. **Total Records:** 32
+2. **Unique Income Sources:**
+Whether_major_source_of_income_from_self-_employment_was_from_agricultural_/_non-_agricultural_sector
+d    1
+
+3. **Top Source of Income:**
+- d with 1 records.
+
+4. **Missing/Null Entries:**
+- 31 missing values.
+

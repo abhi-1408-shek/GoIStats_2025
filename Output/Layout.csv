@@ -1,0 +1,458 @@
+Level,Slno,Item,Length
+1,1,Survey Name,4
+1,2,Year,4
+1,3,FSU Serial No.,5
+1,4,Sector,1
+1,5,State,2
+1,6,NSS-Region,3
+1,7,District,2
+1,8,Stratum,2
+1,9,Sub-stratum,2
+1,10,Panel,2
+1,11,Sub-sample,1
+1,12,FOD-Sub-Region,4
+1,13,Sample SU No.,2
+1,14,Sample Sub-division no.,1
+1,15,Second-stage-stratum no.,1
+1,16,Sample hhld. No.,2
+1,17,Questionnaire No.,1
+1,18,Level ,2
+1,19,Survey Code,1
+1,20,Reason for substitution Code,1
+1,21,Multiplier,15
+2,2,Year,4
+2,3,FSU Serial No.,5
+2,4,Sector,1
+2,5,State,2
+2,6,NSS-Region,3
+2,7,District,2
+2,8,Stratum,2
+2,9,Sub-stratum,2
+2,10,Panel,2
+2,11,Sub-sample,1
+2,12,FOD-Sub-Region,4
+2,13,Sample SU No.,2
+2,14,Sample Sub-division no.,1
+2,15,Second-stage-stratum no.,1
+2,16,Sample hhld. No.,2
+2,2,Questionnaire No.,1
+2,3,Level,2
+2,4,Person Srl No.,2
+2,5,Relation to head (code),1
+2,6,Gender,1
+2,7,Age(in years),3
+2,8,Marital Status (code),1
+2,9,Highest educational level attained (code),2
+2,10,Total year of education completed,2
+2,11,Whether used internet from any location during last 30 days,1
+2,12,No. of days stayed away from home during last 30 days,2
+2,13,No. of meals usually taken in a day,1
+2,14,"No. of meals taken during last 30 days from school, balwadi etc.",2
+2,15,"No. of meals taken during last 30 days from employer as
+perquisites or part of wage",2
+2,16,No. of meals taken during last 30 days  others,2
+2,17,No. of meals taken during last 30 days on payment,2
+2,18,No. of meals taken during last 30 days at home,2
+2,19,Status of Member as on revisit,1
+2,20,FDQ original member(generated field),1
+2,21,Multiplier,15
+3,2,Year,4
+3,3,FSU Serial No.,5
+3,4,Sector,1
+3,5,State,2
+3,6,NSS-Region,3
+3,7,District,2
+3,8,Stratum,2
+3,9,Sub-stratum,2
+3,10,Panel,2
+3,11,Sub-sample,1
+3,12,FOD-Sub-Region,4
+3,13,Sample SU No.,2
+3,14,Sample Sub-division no.,1
+3,15,Second-stage-stratum no.,1
+3,16,Sample hhld. No.,2
+3,2,Questionnaire No.,1
+3,3,Level,2
+3,4,HH Size (For FDQ),2
+3,5,Whether any household member (excluding those employed by the household and paying guests) was engaged in economic activities during last 365 days? ,1
+3,6,NCO-2015 Code(3-digit),3
+3,7,NIC-2008 Code(5-digit),5
+3,8,Broad activities from which maximum income was derived by the household during last 365 days,1
+3,9,Whether major source of income from self- employment was from agricultural / non- agricultural sector,1
+3,10,Whether the major income from regular wage/salary earning from agricultural /non- agricultural sector,1
+3,11,Whether the major income from casual labour was from agriculturalsector/ non- agricultural sector,1
+3,12,Household Type,1
+3,13,Religion of the head of the household,1
+3,14,Social Group of the head of the household,1
+3,15,Does the household own (owned & possessed or leased out) any land (within the country) as on the date of survey?,1
+3,16,Type of land owned,1
+3,17,What is the total area of all owned (owned and possessed or leased out) land (within the country) by the household as on the date of survey (area in acre)?(upto two places of decimal) ,9
+3,18,Does the household have a dwelling unit at present place of enumeration?  ,1
+3,19,Type of Dwelling Unit,1
+3,20,Basic building Material used for major portion of the wall of the dwelling Unit,1
+3,21,Basic building Material used for construction of the major portion of the outer exposed part of the roof of the dwelling unit,1
+3,22,Basic Building Material used for construction of the major portion of the floor of the dwelling Unit`,1
+3,23, Primary source of energy of the household for cooking,2
+3,24, Primary source of energy of the household for Lighting ,1
+3,25,Source of Drinking Water (Last 365 days),2
+3,26,"Time taken by the household for a single trip to reach the source (from which most of the drinking water is fetched), obtain water and back to household (in Minutes)",3
+3,27,Type of access of the household to latrine,1
+3,28,Type of latrine in which the household has access,2
+3,29,Type of ration card possessed by the household as on the date of survey,1
+3,30,Prevailing rate of rent in the locality is available (FOR Rural only),1
+3,31,Benefitted from PMGKY as on the date on the survey,1
+3,32,Any member of the household of age 0 - 18 years died during the period of last 5 years preceding the date of survey,1
+3,33,No of members of the household of age 0 – 18 years died during the period of last 5 years preceding the date of survey?,2
+3,34,Multiplier,15
+4,2,Year,4
+4,3,FSU Serial No.,5
+4,4,Sector,1
+4,5,State,2
+4,6,NSS-Region,3
+4,7,District,2
+4,8,Stratum,2
+4,9,Sub-stratum,2
+4,10,Panel,2
+4,11,Sub-sample,1
+4,12,FOD-Sub-Region,4
+4,13,Sample SU No.,2
+4,14,Sample Sub-division no.,1
+4,15,Second-stage-stratum no.,1
+4,16,Sample hhld. No.,2
+4,2,Questionnaire No.,1
+4,3,Level,2
+4,4,Whether the household procured any item using the ration card during the last 30 days,1
+4,5,Which item procured using ration card during the last 30 days - Rice,1
+4,6,Which item procured using ration card during the last 30 days- Wheat,1
+4,7,Which item procured using ration card during the last 30 days - Coarse Grain,1
+4,8,Which item procured using ration card during the last 30 days - Sugar,1
+4,9,Which item procured using ration card during the last 30 days- Pulses,1
+4,10,Which item procured using ration card during the last 30 days- Edible Oil,1
+4,11,"Which item procured using ration card during the last 30 days- Other food item (including salt, gram, etc.)",1
+4,12,Whether any online purchase/payment has been made during the reference period to buy - Groceries,1
+4,13,Whether any online purchase/payment has been made during the reference period to buy - Milk & its products,1
+4,14,Whether any online purchase/payment has been made during the reference period to buy - Vegetables,1
+4,15,Whether any online purchase/payment has been made during the reference period to buy - Fresh Fruits,1
+4,16,Whether any online purchase/payment has been made during the reference period to buy - Dry Fruits,1
+4,17,"Whether any online purchase/payment has been made during the reference period to buy - Egg,fish & meat",1
+4,18,Whether any online purchase/payment has been made during the reference period to buy - Served processed food,1
+4,19,Whether any online purchase/payment has been made during the reference period to buy - Packed processed food,1
+4,20,Whether any online purchase/payment has been made during the reference period to buy - Other food items,1
+4,21,Ceremony Pereformed during last 30 days,1
+4,22,Meals served to non-household members during the last 30 days,4
+4,23,Multiplier,15
+5,2,Year,4
+5,3,FSU Serial No.,5
+5,4,Sector,1
+5,5,State,2
+5,6,NSS-Region,3
+5,7,District,2
+5,8,Stratum,2
+5,9,Sub-stratum,2
+5,10,Panel,2
+5,11,Sub-sample,1
+5,12,FOD-Sub-Region,4
+5,13,Sample SU No.,2
+5,14,Sample Sub-division no.,1
+5,15,Second-stage-stratum no.,1
+5,16,Sample hhld. No.,2
+5,2,Questionnaire No.,1
+5,3,Level,2
+5,4,Item Code ,3
+5,5,Consumption out of home produce-Quantity(0.000),10
+5,6,Consumption out of home produce-Value(Rs.),8
+5,7,Total Consumption--Quantity(0.000),10
+5,8,Total Consumption--Value(Rs.),8
+5,9,Source,1
+5,10,Multiplier,15
+6,2,Year,4
+6,3,FSU Serial No.,5
+6,4,Sector,1
+6,5,State,2
+6,6,NSS-Region,3
+6,7,District,2
+6,8,Stratum,2
+6,9,Sub-stratum,2
+6,10,Panel,2
+6,11,Sub-sample,1
+6,12,FOD-Sub-Region,4
+6,13,Sample SU No.,2
+6,14,Sample Sub-division no.,1
+6,15,Second-stage-stratum no.,1
+6,16,Sample hhld. No.,2
+6,2,Questionnaire No.,1
+6,3,Level,2
+6,4,Item Code ,3
+6,5,Total Consumption-Quantity(0.000),10
+6,6,Total Consumption-Value(Rs.),8
+6,7,Source,1
+6,8,Multiplier,15
+7,2,Year,4
+7,3,FSU Serial No.,5
+7,4,Sector,1
+7,5,State,2
+7,6,NSS-Region,3
+7,7,District,2
+7,8,Stratum,2
+7,9,Sub-stratum,2
+7,10,Panel,2
+7,11,Sub-sample,1
+7,12,FOD-Sub-Region,4
+7,13,Sample SU No.,2
+7,14,Sample Sub-division no.,1
+7,15,Second-stage-stratum no.,1
+7,16,Sample hhld. No.,2
+7,2,Questionnaire No.,1
+7,3,Level,2
+7,4,Whether the household procured kerosene using ration card during last 30 days - Kerosene,1
+7,5,Whether household received subsidy on LPG cylinder during the last 3 months?,1
+7,6,If yes in Q4.2.1 Number of subsidized LPG cylinder received during the last 3 months preceding the date of survey (number) ,2
+7,7,Whether household received free electricity during the last 30 days,1
+7,8,Whether any household member is attending/attended educational institution during last 365 days,1
+7,9,If Code 1 in Q4.2.3 Number attending /attended Govt. Institution ?,3
+7,10,If Code 1 in Q4.2.3 Number  attending /attended Private Institution ?,3
+7,11,[Checkbox] If Code 1 in Q4.2.3 whether any member of the household received following items free in last 365 days : Textbooks ? ,1
+7,12,Total no. of free textbooks received,3
+7,13,"[Checkbox] If Code 1 in Q4.2.3 whether any member of the household received following items free in last 365 days : Stationary (pen,notepad etc.) ? ",1
+7,14,Total no. of free stationaries received,3
+7,15,[Checkbox] If Code 1 in Q4.2.3 whether any member of the household received following items free in last 365 days : School Bag ? ,1
+7,16,Total no. of free school bags received,3
+7,17,[Checkbox] If Code 1 in Q4.2.3 whether any member of the household received following items free in last 365 days : Others ? ,1
+7,18,Total no. of free other items received,3
+7,19,If Code 1 in Q4.2.3 Whether Any member received reimbursement/waiver of school/clg. Fee during last 365 days ?,1
+7,20,If Code 1 in Q4.2.6 Number of member received reimbursement/waiver  ?,2
+7,21,Is one or more member of the household a benificiary of Pradhan Mantri Jan Aarogya Yojana (Ayushman Bharat) or any other state specific public health scheme as on the date of survey,1
+7,22,If Code 1 in Q4.2.7 Number of beneficiaries ?,2
+7,23,Whether there was any case of hospitalization in the household during last 365 days?,1
+7,24,Whether one or more member of the household has received benefits of medical treatment (medical – hospitalisation)under Pradhan Mantri Jan Aarogya Yojana Card (Ayushman Bharat) or any other state specific public health scheme during the last 365 days,1
+7,25,If yes in Q4.2.9 number of member received benifit ?,2
+7,26,If yes in Q4.2.9 Amount ?,8
+7,27,Whether any online purchase/payment has been made during the reference period to buy - Fuel & light,1
+7,28,Whether any online purchase/payment has been made during the reference period to buy - Toilet articles & other household consumables,1
+7,29,Whether any online purchase/payment has been made during the reference period to buy - Education,1
+7,30,Whether any online purchase/payment has been made during the reference period to buy- Medicine & other medical services,1
+7,31,"Whether any online purchase/payment has been made during the reference period to buy- Services (Travel, Recharges, Bill payment, Cinema/Theatre, internet, etc.) ",1
+7,32,Household has internet facility as on the date of the survey,1
+7,33,Multiplier,15
+8,2,Year,4
+8,3,FSU Serial No.,5
+8,4,Sector,1
+8,5,State,2
+8,6,NSS-Region,3
+8,7,District,2
+8,8,Stratum,2
+8,9,Sub-stratum,2
+8,10,Panel,2
+8,11,Sub-sample,1
+8,12,FOD-Sub-Region,4
+8,13,Sample SU No.,2
+8,14,Sample Sub-division no.,1
+8,15,Second-stage-stratum no.,1
+8,16,Sample hhld. No.,2
+8,2,Questionnaire No.,1
+8,3,Level,2
+8,4,Item Code ,3
+8,5,Consumption out of home produce--Quantity(0.000),10
+8,6,Consumption out of home produce--Value(Rs.),8
+8,7,Total Consumption--Quantity(0.000),10
+8,8,Total Consumption--Value(Rs.),8
+8,9,Source,1
+8,10,Multiplier,15
+9,2,Year,4
+9,3,FSU Serial No.,5
+9,4,Sector,1
+9,5,State,2
+9,6,NSS-Region,3
+9,7,District,2
+9,8,Stratum,2
+9,9,Sub-stratum,2
+9,10,Panel,2
+9,11,Sub-sample,1
+9,12,FOD-Sub-Region,4
+9,13,Sample SU No.,2
+9,14,Sample Sub-division no.,1
+9,15,Second-stage-stratum no.,1
+9,16,Sample hhld. No.,2
+9,2,Questionnaire No.,1
+9,3,Level,2
+9,4,Item Code ,3
+9,5,Value(Rs.),8
+9,6,Multiplier,15
+10,2,Year,4
+10,3,FSU Serial No.,5
+10,4,Sector,1
+10,5,State,2
+10,6,NSS-Region,3
+10,7,District,2
+10,8,Stratum,2
+10,9,Sub-stratum,2
+10,10,Panel,2
+10,11,Sub-sample,1
+10,12,FOD-Sub-Region,4
+10,13,Sample SU No.,2
+10,14,Sample Sub-division no.,1
+10,15,Second-stage-stratum no.,1
+10,16,Sample hhld. No.,2
+10,2,Questionnaire No.,1
+10,3,Level,2
+10,4,Item Code ,3
+10,5,Consumption out of home produce--Quantity(0.000),10
+10,6,Consumption out of home produce--Value(Rs.),8
+10,7,Total Consumption--Quantity(0.000),10
+10,8,Total Consumption--Value(Rs.),8
+10,9,Source,1
+10,10,Multiplier,15
+11,2,Year,4
+11,3,FSU Serial No.,5
+11,4,Sector,1
+11,5,State,2
+11,6,NSS-Region,3
+11,7,District,2
+11,8,Stratum,2
+11,9,Sub-stratum,2
+11,10,Panel,2
+11,11,Sub-sample,1
+11,12,FOD-Sub-Region,4
+11,13,Sample SU No.,2
+11,14,Sample Sub-division no.,1
+11,15,Second-stage-stratum no.,1
+11,16,Sample hhld. No.,2
+11,2,Questionnaire No.,1
+11,3,Level,2
+11,4,Which online item purchased/Paid during last 365 days - Clothing,1
+11,5,Which online item purchased/Paid during last 365 days- Footwear,1
+11,6,Which online item purchased/Paid during last 365 days - Furniture & fixtures,1
+11,7,Which online item purchased/Paid during last 365 days - Mobile handset,1
+11,8,"Which online item purchased/Paid during last 365 days- Personal goods (laptop/PC, tablet, clock, watch, spectacles, contact 
+lenses, etc.)",1
+11,9,"Which online item purchased/Paid during last 365 days- Goods for recreation (TV, camera, pen-drive, musical instruments, 
+etc.) 
+",1
+11,10,Which online item purchased/Paid during last 365 days -Cooking & other household appliances ,1
+11,11,Which online item purchased/Paid during last 365 days - Crockery & utensils,1
+11,12,Which online item purchased/Paid during last 365 days - Sports goods,1
+11,13,Which online item purchased/Paid during last 365 days- Medical equipment,1
+11,14,Which online item purchased/Paid during last 365 days- Bedding,1
+11,15,[Checkbox] : Whether One or more member of the household received items free of cost  during last 365 days: Laptop/PC,1
+11,16,Total number of free Laptop/PC,3
+11,17,[Checkbox] : Whether One or more member of the household received items free of cost  during last 365 days: Tablet,1
+11,18,Total number of free Tablet,3
+11,19,[Checkbox] : Whether One or more member of the household received items free of cost  during last 365 days : Mobile,1
+11,20,Total number of free Mobile,3
+11,21,[Checkbox] : Whether One or more member of the household received items free of cost  during last 365 days : Bicycle,1
+11,22,Total number of free Bicycle,3
+11,23,[Checkbox] : Whether One or more member of the household received items free of cost  during last 365 days : Motorcycle/Scooty,1
+11,24,Total number of free Motorcycle/Scooty,3
+11,25,[Checkbox] : Whether One or more member of the household received items free of cost  during last 365 days: Clothing (Schooling uniform etc.),1
+11,26,Total number of free Clothing (Schooling uniform etc.),3
+11,27,[Checkbox] : Whether One or more member of the household received items free of cost  during last 365 days: Footwear (School shoe etc.),1
+11,28,Total number of free Footwear (School shoe etc.),3
+11,29,[Checkbox] : Whether One or more member of the household received items free of cost  during last 365 days: Other,1
+11,30,Total number of free Other items,3
+11,31,Whether household possessed one or more item as on the date of the survey- Television ,1
+11,32,Whether household possessed one or more item as on the date of the survey- Radio,1
+11,33,Whether household possessed one or more item as on the date of the survey - Laptop/PC,1
+11,34,Whether household possessed one or more item as on the date of the survey- Mobile handset,1
+11,35,Whether household possessed one or more item as on the date of the survey- Bicycle,1
+11,36,"Whether household possessed one or more item as on the date of the survey- Motorcycle, scooter ",1
+11,37,Whether household possessed one or more item as on the date of the survey- Motor car/jeep/van,1
+11,38,Whether household possessed one or more item as on the date of the survey- Trucks,1
+11,39,Whether household possessed one or more item as on the date of the survey - Animal cart,1
+11,40,Whether household possessed one or more item as on the date of the survey- Refrigerator,1
+11,41,Whether household possessed one or more item as on the date of the survey- Washing machine,1
+11,42,Whether household possessed one or more item as on the date of the survey- Air conditioner/air cooler ,1
+11,43,Type of multichannel television facility is used by the household as on the date of the survey,1
+11,44,Multiplier,15
+12,2,Year,4
+12,3,FSU Serial No.,5
+12,4,Sector,1
+12,5,State,2
+12,6,NSS-Region,3
+12,7,District,2
+12,8,Stratum,2
+12,9,Sub-stratum,2
+12,10,Panel,2
+12,11,Sub-sample,1
+12,12,FOD-Sub-Region,4
+12,13,Sample SU No.,2
+12,14,Sample Sub-division no.,1
+12,15,Second-stage-stratum no.,1
+12,16,Sample hhld. No.,2
+12,2,Questionnaire No.,1
+12,3,Level,2
+12,4,Item Code,3
+12,5,Quantity (0.00),10
+12,6,Value (Rs.),8
+12,7,Multiplier,15
+13,2,Year,4
+13,3,FSU Serial No.,5
+13,4,Sector,1
+13,5,State,2
+13,6,NSS-Region,3
+13,7,District,2
+13,8,Stratum,2
+13,9,Sub-stratum,2
+13,10,Panel,2
+13,11,Sub-sample,1
+13,12,FOD-Sub-Region,4
+13,13,Sample SU No.,2
+13,14,Sample Sub-division no.,1
+13,15,Second-stage-stratum no.,1
+13,16,Sample hhld. No.,2
+13,2,Questionnaire No.,1
+13,3,Level,2
+13,4,Item Code ,3
+13,5, First-hand purchase:number,3
+13,6,Whether purchased on hire,1
+13,7, First-hand purchase:Value(Rs.),8
+13,8,Cost of repair & maintenance /cost of raw material and services for construction and repair(Rs.),8
+13,9,2nd-hand purchase:Number,3
+13,10, 2nd-hand purchase:Value(Rs.),8
+13,11,Total expenditure(Rs.),8
+13,12,Multiplier,15
+14,2,Year,4
+14,3,FSU Serial No.,5
+14,4,Sector,1
+14,5,State,2
+14,6,NSS-Region,3
+14,7,District,2
+14,8,Stratum,2
+14,9,Sub-stratum,2
+14,10,Panel,2
+14,11,Sub-sample,1
+14,12,FOD-Sub-Region,4
+14,13,Sample SU No.,2
+14,14,Sample Sub-division no.,1
+14,15,Second-stage-stratum no.,1
+14,16,Sample hhld. No.,2
+14,2,Questionnaire No.,1
+14,3,Level,2
+14,4,Section,5
+14,5,Item Code,3
+14,6,Value (in Rs),10
+14,7,Multiplier,15
+15,2,Year,4
+15,3,FSU Serial No.,5
+15,4,Sector,1
+15,5,State,2
+15,6,NSS-Region,3
+15,7,District,2
+15,8,Stratum,2
+15,9,Sub-stratum,2
+15,10,Panel,2
+15,11,Sub-sample,1
+15,12,FOD-Sub-Region,4
+15,13,Sample SU No.,2
+15,14,Sample Sub-division no.,1
+15,15,Second-stage-stratum no.,1
+15,16,Sample hhld. No.,2
+15,2,Questionnaire No.,1
+15,3,Level,2
+15,4,Section,2
+15,5,Time taken to canvass the questionnaire (in minutes),3
+15,6,Household’s usual consumption expenditure in a month (in Rs.),8
+15,7,Total expenditure incurred on online purchase/payment in last 30 days,8
+15,8,Informant code,2
+15,9,Response code,1
+15,10,Household size,3
+15,11,Multiplier,15
